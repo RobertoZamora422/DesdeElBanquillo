@@ -30,7 +30,7 @@ namespace DesdeElBanquillo
             builder.Services.AddSingleton<MainViewModel>();
 
             // Registro de Views
-            builder.Services.AddSingleton<MainPage>();
+            builder.Services.AddSingleton<Views.MainPage>();
 
             return builder.Build();
         }

@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewmodel="clr-namespace:DesdeElBanquillo.ViewModels"
              xmlns:model="clr-namespace:DesdeElBanquillo.Models"
-             x:Class="DesdeElBanquillo.MainPage"
+             x:Class="DesdeElBanquillo.Views.MainPage"
              x:DataType="viewmodel:MainViewModel"
              NavigationPage.HasNavigationBar="False">
 
