@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 using CommunityToolkit.Maui;
+using DesdeElBanquillo.Services;
 
 namespace DesdeElBanquillo
 {
@@ -21,7 +22,8 @@ namespace DesdeElBanquillo
     		builder.Logging.AddDebug();
 #endif
 
-            
+            // Registro de servicios
+            builder.Services.AddSingleton<MockDataService>();
 
             // Registro de Views
             builder.Services.AddSingleton<MainPage>();
