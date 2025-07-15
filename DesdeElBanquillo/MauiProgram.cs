@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using CommunityToolkit.Maui;
 using DesdeElBanquillo.Services;
+using DesdeElBanquillo.ViewModels;
 
 namespace DesdeElBanquillo
 {
@@ -24,6 +25,9 @@ namespace DesdeElBanquillo
 
             // Registro de servicios
             builder.Services.AddSingleton<MockDataService>();
+
+            // Registro de ViewModels
+            builder.Services.AddSingleton<MainViewModel>();
 
             // Registro de Views
             builder.Services.AddSingleton<MainPage>();
