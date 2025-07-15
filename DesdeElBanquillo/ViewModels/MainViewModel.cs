@@ -56,6 +56,12 @@ namespace DesdeElBanquillo.ViewModels
         }
 
         [RelayCommand]
+        private void Refresh()
+        {
+            LoadData();
+        }
+
+        [RelayCommand]
         private void Search()
         {
             // Lógica de búsqueda (se implementará más adelante)
